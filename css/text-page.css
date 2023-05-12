@@ -1,0 +1,177 @@
+.btn-box .ion-md-arrow-down {
+    font-size: 45px;
+    padding: 60px 70px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.15);
+    z-index: -1;
+}
+
+.title {
+    position: relative;
+    font-size: 120px;
+    z-index: -2 !important;
+    margin-top: 0;
+}
+
+.about {
+    font-size: 24px;
+    text-indent: 20px;
+    margin: 45px 0 15px 0;
+    color: white;
+    z-index: -1;
+}
+
+.bg-about {
+    width: 200px;
+    position: absolute;
+    top: 24%;
+    right: 95%;
+    z-index: -3;
+}
+
+.bgc {
+    position: absolute;
+    width: 99.5vw;
+    top: 0;
+    height: 110%;
+    background-color: #00000020;
+    z-index: -2;
+}
+
+.text-box {
+    position: absolute;
+    top: 20%;
+}
+
+.text-box-figma {
+    border: 1px solid white;
+    margin: 40px 0;
+    padding: 15px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    z-index: -1;
+}
+
+.exp-about {
+    position: absolute;
+    width: 316px;
+    top: 60%;
+    left: 103%;
+    z-index: -1;
+}
+
+.exp-icon {
+    top: -27%;
+    left: 115%;
+    z-index: -1;
+}
+
+.exp-rect {
+    width: 290px;
+    top: 76%;
+    left: 100%;
+}
+
+.wrapper:nth-child(2) {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.btn-box {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+}
+
+.comunity-page{
+    width: 100%;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.list{
+    margin-left: 20px;
+}
+
+.list li{
+    list-style: disc;
+    color: white;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:768px) {
+    .btn-box .ion-md-arrow-down {
+        font-size: 25px;
+        padding: 25px 30px;
+        border: 1px solid white;
+        background: rgba(255, 255, 255, 0.15);
+    }
+
+    .title {
+        font-size: 65px;
+    }
+
+    .about {
+        font-size: 20px;
+        text-indent: 20px;
+        margin: 45px 0 15px 0;
+        color: white;
+        z-index: -1;
+    }
+
+    .bg-about {
+        width: 200px;
+        position: absolute;
+        top: 15%;
+        right: 67%;
+        z-index: -2;
+    }
+
+    .bgc {
+        height: 102%;
+        position: absolute;
+        top: 0;
+        background-color: #00000020;
+    }
+
+
+    .exp-about {
+        position: absolute;
+        width: 140px;
+        top: 90%;
+        left: 65%;
+        z-index: -1;
+    }
+
+    .btn-box {
+        position: absolute;
+        margin: 120px 0;
+        z-index: 1;
+        top: 50%;
+    }
+
+    .wrapper:nth-child(2) {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+        z-index: -1;
+    }
+
+    .exp-icon {
+        top: 32%;
+        left: 104%;
+        z-index: -1;
+    }
+
+    .exp-rect {
+        width: 215px;
+        top: 92%;
+        left: 40%;
+    }
+
+    .comunity-page{
+        width: 350px;
+    }
+}
