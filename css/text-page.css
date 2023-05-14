@@ -58,6 +58,7 @@
     top: 60%;
     left: 103%;
     z-index: -1;
+    overflow: hidden;
 }
 
 .exp-icon {
